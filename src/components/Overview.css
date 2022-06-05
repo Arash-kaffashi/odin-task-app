@@ -1,0 +1,25 @@
+.ulist {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1em;
+	margin-left: 1em;
+	padding-left: 0px;
+	gap: 10px;
+	max-width: max-content;
+}
+
+.content {
+	display: flex;
+	flex-flow: row nowrap;
+	gap: 16px;
+	border-bottom: 1px solid black;
+	min-width: 20em;
+}
+
+.content > span {
+	flex: 1 1 auto;
+}
+
+.content > svg {
+	cursor: pointer;
+}
